@@ -51,7 +51,7 @@ jobs:
         
     - run: flutter build web
     - uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
+      with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
           BASE_BRANCH: master
           BRANCH: gh-pages
